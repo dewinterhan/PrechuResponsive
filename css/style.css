@@ -1,0 +1,111 @@
+body{
+    color: white;
+}
+.eerstecontainer{
+    background:aqua;
+}
+.tweedecontainer{
+    background:green;
+}
+.derdecontainer{
+    background:yellow;
+}
+.vierkant{
+    height:100px;
+    width:100px;
+    background:red;
+}
+.vierkant2{
+    height: 50px;
+    width:50px;
+    background:blue;
+}
+.kleur{
+    background: purple;
+}
+
+/* PRECHU */
+/*** CSS MOBILE VERSION ***/
+
+/*ENKEL VOOR SLIDER POSITION ABSOLUTE*/
+.iphone {
+    width: 300px;
+    margin-top: 15px;
+}
+
+#carouselExampleControls > div > div > div > div {
+    top: 0px;
+}
+
+#carouselExampleControls > div > div.row > div > div > div > div:nth-child(2) > h2{
+    font-size: 42px;
+    font-weight: 100;
+}
+
+#carouselExampleControls > div > div.row > div > div > div > div.col-lg-6.my-auto > h2 > small {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+body > main > section:nth-child(1) > div > div > article:nth-child(1) > img {
+    background: #5094f2;
+}
+
+body > main > section:nth-child(1) > div > div > article:nth-child(2) > img {
+    background: #d94748;
+}
+
+body > main > section:nth-child(1) > div > div > article:nth-child(3) > img {
+    background: #ebbb11;
+}
+
+body > main > section:nth-child(1) > div > div > article > h2{
+    font-size: 20px;
+    color: #5094f2;
+}
+
+body > main > section:nth-child(1) > div > div > article > p {
+    font-size: 14px;
+    color: #909090;
+}
+
+body > main > section:nth-child(2) > div > article.col-lg-4.offset-lg-1 > h3 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #909090;
+}
+
+body > main > section:nth-child(2) > div > article.col-lg-6 > h3{
+    font-size: 26px;
+    font-weight: 100;
+    color: #909090;
+}
+
+body > main > section:nth-child(2) > div > article.col-lg-6 > p {
+    font-size: 15px;
+    color: #909090;
+}
+
+body > footer > p {
+    font-size: 15px;
+    color: #909090;
+}
+
+/* MEDIA QUERRY'S */
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) SM*/
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) MD*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) LD*/
+@media (min-width: 992px) {
+    body > nav > div > div {
+    height: 90px;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) XLD*/
+@media (min-width: 1200px) {}
